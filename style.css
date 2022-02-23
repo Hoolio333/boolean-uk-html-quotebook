@@ -50,37 +50,34 @@ h2 {
     grid-auto-flow: row;
   }
 
+
 .golf {
 border: solid rgb(187, 207, 188);
 background-color: rgb(187, 207, 188);    
 border-radius: 5%;
-padding: 10px;
 }
 
 .rocky {
 border: solid rgb(233, 209, 200);
 background-color: rgb(233, 209, 200);
 border-radius: 5%;
-padding: 10px;
 }
 
-p {
-    text-align: center;
-    text-align: justify;    
+p {display: grid;
+  place-items: center;
+  text-align: center;  
 }
 
 .music {
       border: solid rgb(233, 209, 186);
     background-color: rgb(233, 209, 186);
     border-radius: 5%;
-    padding: 10px;
 }
 
 .fly {
     border: solid rgb(195, 222, 224);
     background-color: rgb(195, 222, 224);
     border-radius: 5%;
-    padding: 10px;
 }
 
 img {
