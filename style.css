@@ -48,16 +48,18 @@ h2 {
     grid-area: content;
     display: grid;
     grid-auto-flow: row;
-}
+  }
 
 .golf {
 border: solid rgb(187, 207, 188);
 background-color: rgb(187, 207, 188);    
+border-radius: 5%;
 }
 
 .rocky {
 border: solid rgb(233, 209, 200);
 background-color: rgb(233, 209, 200);
+border-radius: 5%;
 }
 
 p {
@@ -68,6 +70,13 @@ p {
 .fly {
     border: solid rgb(195, 222, 224);
     background-color: rgb(195, 222, 224);
+    border-radius: 5%;
+}
+
+.music {
+      border: solid rgb(233, 209, 186);
+    background-color: rgb(233, 209, 186);
+    border-radius: 5%;
 }
 
 img {
