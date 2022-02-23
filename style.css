@@ -40,9 +40,19 @@ main {
   grid-template-columns: 1fr 60ch 1fr;
 }
 
+h2 {
+     text-align: center;
+}
+
 .quote-grid-rows {
+    grid-area: content;
     display: grid;
     grid-auto-flow: row;
+}
+
+.golf {
+border: solid rgb(187, 207, 188);
+background-color: rgb(187, 207, 188);    
 }
 
 .rocky {
@@ -65,4 +75,8 @@ img {
     width: 60%;
     margin-left: auto;
 margin-right: auto;
+}
+
+h3 {
+    color: red;
 }
